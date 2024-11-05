@@ -140,7 +140,7 @@ apply the K-fold to evaluate accuracy across k fold for each kernel type.
 # you are experimenting with multiple parameters.
 
 
-k = 10
+k = 5
 
 # Initialize Stratified K-Fold for maintaining class distribution in each fold
 stratified_kfold = StratifiedKFold(n_splits=k, shuffle=True, random_state=42)
